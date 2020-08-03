@@ -1,0 +1,34 @@
+{
+    "navbar":{
+      "head": "Husary Teacher"
+    },
+    "home":{
+      "title" : "Today's Lesson"
+    },
+    "contact":{
+      "title" : "Contact Us"
+    },
+    "references":{
+      "title" : "References"
+    },
+    "notFound":{
+      "title" : "Not Found"
+    },
+    "about":{
+      "title":"About Us"
+    },
+    "aya":{
+      "title": "In the name of God, Most Gracious, Most Merciful",
+      "content":[
+      ]
+    }, 
+    "mainmenu":{
+      "selectsorah": "Select Surah",
+      "ayahnumber": "Verse number",
+      "repeatayah": "Repeat Verse",
+      "repeatlesson": "Repeat Lesson",
+      "waitingtime": "Waiting Between Verse",
+      "todaylesson": "Today's Lesson",
+      "start": "Start"
+    } 
+  }
