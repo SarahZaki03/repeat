@@ -1,6 +1,8 @@
 {
     "navbar":{
-      "head": "Husary Teacher"
+      "head": "Husary Teacher",
+      "logout": "Logout",
+      "login": "Login"
     },
     "home":{
       "title" : "Today's Lesson"
@@ -29,6 +31,8 @@
       "repeatlesson": "Repeat Lesson",
       "waitingtime": "Waiting Between Verse",
       "todaylesson": "Today's Lesson",
-      "start": "Start"
+      "start": "Start",
+      "from": "from",
+      "to": "to"
     } 
   }

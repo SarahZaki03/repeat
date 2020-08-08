@@ -1,11 +1,21 @@
 <template>
   <div>
-      <h1> {{ $t("references.title") }} </h1>
+      <Aya /> 
+
+      <SiderImage source="woman_and_book.svg" />
   </div>
 </template>
 
 <script>
+
+import SiderImage from "@/components/global/SiderImage"
+import Aya from "@/components/global/Aya"
+
 export default {
+  components:{
+    SiderImage,
+    Aya
+  }
 
 }
 </script>

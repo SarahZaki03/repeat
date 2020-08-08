@@ -38,6 +38,12 @@
           </li>
 
           <li class="nav-item my-nav-item">
+            <router-link :to="`/${$i18n.locale}/references`" class="nav-link about">
+              {{ $t("references.title") }}
+            </router-link>
+          </li>
+
+          <li class="nav-item my-nav-item">
             <router-link
               :to="`/${$i18n.locale}/contact`"
               class="nav-link contact"
@@ -50,7 +56,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown clickable">
             <a
-              class="nav-link text-big text-dark"
+              class="nav-link text-big text-dark pt-2 mt-2 mr-3"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -69,7 +75,8 @@
           <li class="nav-item">
             <div v-if="auth">
               <label @click="logout" class="nav-link nav-item logout">
-                <h5 class="nav-item">{{ $t("nav.logout") }} ( {{ name }} )</h5>
+                <!-- <h5 class="nav-item">{{ $t("navbar.logout") }} ( {{ name }} )</h5> -->
+                <h5 class="nav-item">{{ $t("navbar.logout") }} </h5>
               </label>
             </div>
             <div v-else>
@@ -77,7 +84,7 @@
                 :to="`/${$i18n.locale}/identity`"
                 class="nav-link text-upper login"
               >
-                {{ $t("nav.login") }}
+                {{ $t("navbar.login") }}
               </router-link>
             </div>
           </li>
@@ -238,5 +245,9 @@ h1 {
   font-size: 2.3em;
 	font-family: 'Ge tasmeem';
 	font-weight: 500;
+}
+
+.dropdown-menu {
+  margin : 12px
 }
 </style>

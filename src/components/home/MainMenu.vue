@@ -6,35 +6,35 @@
 				<div class="top-menu">
 				<!-- Select Sorah -->
 				<select class="select-form" @click="hideAyat">
-					<option value>{{ $t("mainmenu.selectsorah") }}</option>
+					<option disabled selected hidden>{{ $t("mainmenu.selectsorah") }}</option>
 				</select>
 				<!--==============-->
 				<!--  Select Start and End of Ayah -->
 				<label>{{ $t("mainmenu.ayahnumber") }}</label>
-				<input type="number" min="1" id="aya-number-from" class="select-form"/> 
-				<input type="number" min="1" id="aya-number-to" class="select-form"/>
+				<input type="number" min="1" id="aya-number-from" :placeholder="$t('mainmenu.from')" class="select-form"/> 
+				<input type="number" min="1" id="aya-number-to" :placeholder="$t('mainmenu.to')" class="select-form"/>
 				<!--===============================-->
 				</div>
 				<div class="bottom-menu">
 				<!-- Select Repeat Time for Ayah -->
 				<select class="select-form">
-					<option value>{{ $t("mainmenu.repeatayah") }}</option>
+					<option disabled selected hidden>{{ $t("mainmenu.repeatayah") }}</option>
 				</select>
 				<!--=============================-->
 				<!-- Select Repeat Time for Lesson -->
 				<select class="select-form">
-					<option value>{{ $t("mainmenu.repeatlesson") }}</option>
+					<option disabled selected hidden>{{ $t("mainmenu.repeatlesson") }}</option>
 				</select>
 				<!--===============================-->
 				<!-- Select for Waiting Time between Ayah -->
 				<select class="select-form">
-					<option value>{{ $t("mainmenu.waitingtime") }}</option>
+					<option disabled selected hidden>{{ $t("mainmenu.waitingtime") }}</option>
 				</select>
 				<!--======================================-->
 				</div>
 					
 			</div>
-			<div class="lesson"><button class="gold-btn large-btn">{{ $t("mainmenu.start") }}</button></div>
+			<div class="lesson"><button class="gold-btn large-btn  px-3 pt-1">{{ $t("mainmenu.start") }}</button></div>
 		</div>
 	</div>
 </template>
@@ -70,12 +70,12 @@ export default {
 	width: 50%;
 }
 .select-sorah{
-    height: 250px;
+	height: 250px;
 	padding: 1em;
-    margin-top: 1em;
+	margin-top: 1em;
 	margin-right: 1em;
-    border-radius: .5em;
-    background: rgba(255,255,255,.3);
+	border-radius: .5em;
+	background: rgba(255,255,255,.3);
 	font-family: 'Dubai';
 	font-weight: 100;
 	font-size: .9em;
@@ -114,12 +114,12 @@ export default {
 }
 .select-form{
 	background: white;
-    border-radius: .3em;
+	border-radius: .3em;
 	border: none;
 	box-shadow: 0 0 0 2px transparent;
-    color: grey;
-    padding: .4em 1em!important;
-    margin: .3em 0 .3em .3em; 
+	color: grey;
+	padding: .4em 1em!important;
+	margin: .3em 0 .3em .3em; 
 }
 .select-form:hover{
 	box-shadow: 0 0 0 1px transparent, 0 0 0 1px gold;
@@ -136,4 +136,5 @@ export default {
 	display: flex;
 	justify-content: space-between;
 }
+
 </style>
