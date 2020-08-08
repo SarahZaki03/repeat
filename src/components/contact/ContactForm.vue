@@ -60,5 +60,5 @@
   background-size: cover;
   z-index: 0;
 }
-
+ 
 </style>
