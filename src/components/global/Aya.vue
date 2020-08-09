@@ -33,7 +33,6 @@ export default {
   font-family: 'Dubai';
   font-weight: 700;
   color: white;
-  width: 50%;
   display: inline-block;
   text-align: center;
 }

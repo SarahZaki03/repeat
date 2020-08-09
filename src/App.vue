@@ -37,13 +37,12 @@ export default {
   src: url('./public/fonts/Dubai-Bold.ttf'); 
 }
 html, body{
-  background: rgb(189, 212, 240);
+  background: rgb(136, 179, 231);
 }
 * {
   margin: 0px;
 }
 #app {
-  background: rgb(189, 212, 240);
   height: 100%;
   text-align: right ;
 }

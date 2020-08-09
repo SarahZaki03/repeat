@@ -1,11 +1,9 @@
 <template>
   <div>
 
-    <br>
-    
-    <Aya />
+    <Aya class="mr-5 mt-3"/>
 
-    <div class="main-body">
+    <div class="main-body mr-4">
       <SiderImage source="childrens.svg"/>
       <MainMenu />
     </div>

@@ -19,6 +19,11 @@
 				<!-- Select Repeat Time for Ayah -->
 				<select class="select-form">
 					<option disabled selected hidden>{{ $t("mainmenu.repeatayah") }}</option>
+					<option 
+						v-for="option in $t('repeat.options')"
+						:key="option"
+						:value="option.value"> {{option.text}} 
+					</option>
 				</select>
 				<!--=============================-->
 				<!-- Select Repeat Time for Lesson -->
@@ -29,6 +34,11 @@
 				<!-- Select for Waiting Time between Ayah -->
 				<select class="select-form">
 					<option disabled selected hidden>{{ $t("mainmenu.waitingtime") }}</option>
+					<option 
+						v-for="option in $t('waiting.options')"
+						:key="option"
+						:value="option.value"> {{option.text}} 
+					</option>
 				</select>
 				<!--======================================-->
 				</div>

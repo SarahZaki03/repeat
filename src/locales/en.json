@@ -8,10 +8,15 @@
       "title" : "Today's Lesson"
     },
     "contact":{
-      "title" : "Contact Us"
+      "title" : "Contact Us",
+      "email": "Email",
+      "topic": "Topic",
+      "msg": "Message",
+      "button": "Send"
     },
     "references":{
-      "title" : "References"
+      "title" : "References",
+      "data": "Data"
     },
     "notFound":{
       "title" : "Not Found"
