@@ -1,11 +1,11 @@
 <template>
   <div>
+    <div class="rigth pr-5">
+      <Aya />
+      <ContactForm class="shadow p-3 m-2"/>
+    </div>
 
-    <Aya />
-
-    <ContactForm />
-
-    <SiderImage source="woman_and_book.svg" />
+    <SiderImage source="woman_and_book.svg" class="mt-4" />
 
   </div>
 </template>
@@ -73,9 +73,10 @@ export default {
 
 <style lang="scss">
 
-.main-body{
-  display: flex;
-  justify-content: space-between;
+.rigth{
+  float: right ;
+  direction: rtl;
+  width: 55%;
 }
 
 </style>

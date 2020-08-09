@@ -25,15 +25,10 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto menu">
+          
           <li class="nav-item my-nav-item">
             <router-link :to="`/${$i18n.locale}`" class="nav-link home">
               {{ $t("home.title") }}
-            </router-link>
-          </li>
-
-          <li class="nav-item my-nav-item">
-            <router-link :to="`/${$i18n.locale}/about`" class="nav-link about">
-              {{ $t("about.title") }}
             </router-link>
           </li>
 
@@ -48,7 +43,7 @@
               :to="`/${$i18n.locale}/contact`"
               class="nav-link contact"
             >
-              {{ $t("contact.title") }}
+              {{ $t("contact.purpose") }}
             </router-link>
           </li>
         </ul>
@@ -88,6 +83,7 @@
               </router-link>
             </div>
           </li>
+
         </ul>
       </div>
     </div>
@@ -207,7 +203,8 @@ h1 {
   color: red($color: #000000);
 } 
 .navbar {
-  background: rgb(189, 212, 240) !important;
+  background: rgb(136, 179, 231) !important;
+  // direction: rtl;
 }
 .menu .nav-link{
   font-family: 'Dubai';
