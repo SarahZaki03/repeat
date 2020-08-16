@@ -33,12 +33,12 @@ export default {
   font-family: 'Dubai';
   font-weight: 700;
   color: white;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
 }
 .aya h3{
   font-size: 1.3em;
-  margin-bottom: .8em;
+  /* margin-bottom: .8em; */
 }
 .aya p{
   font-size: .9em;
