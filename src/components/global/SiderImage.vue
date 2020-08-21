@@ -15,12 +15,5 @@ export default {
 </script>
 
 <style>
-.left-side{
-	width: 45%;
-	margin-top: -5em;
-}
-.img-container img{
-	width: 70%;
-	margin-right: 2em;
-}
+
 </style>

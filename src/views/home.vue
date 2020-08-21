@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <div class="d-flex">
 
-    <Aya class="mr-5 mt-3"/>
-
-    <div class="main-body mr-4">
-      <SiderImage source="childrens.svg"/>
-      <MainMenu />
+    <div class="col-6 py-4 mr-5">
+      <Aya class="py-3" />
+      <MainMenu class="" />
     </div>
-    
+
+    <div class="col-5">
+      <SiderImage source="childrens.svg"/>
+    </div>
 
   </div>
 </template>
@@ -28,8 +29,8 @@ export default {
 </script>
 
 <style>
-.main-body{
-  display: flex;
-  justify-content: space-between;
+
+*{
+  direction: rtl;
 }
 </style>
