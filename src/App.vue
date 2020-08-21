@@ -37,7 +37,10 @@ export default {
   src: url('./public/fonts/Dubai-Bold.ttf'); 
 }
 html, body{
-  background: rgb(136, 179, 231);
+  background: #7fa4be;
+  background: linear-gradient(160deg, #7fa4be 0, #699abc 20%, #69829f 85%, #5b647e 100%);
+  background-clip: border-box;
+  padding-bottom: 1em;
 }
 * {
   margin: 0px;
