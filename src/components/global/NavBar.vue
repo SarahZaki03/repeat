@@ -203,7 +203,7 @@ h1 {
   color: red($color: #000000);
 } 
 .navbar {
-  background: rgb(136, 179, 231) !important;
+  background: transparent !important;
   // direction: rtl;
 }
 .menu .nav-link{
