@@ -19,7 +19,7 @@
     "bootstrap-select": "^1.13.18",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.1",
     "sass-loader": "^9.0.2",
     "vue": "^2.6.11",
